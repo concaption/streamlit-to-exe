@@ -1,0 +1,28 @@
+{
+    "name": "your_app_name",
+    "version": "0.1.0",
+    "main": "./build/electron/main.js",
+    "scripts": {
+        "dump": "dump-stlite-desktop-artifacts",
+        "serve": "NODE_ENV='production' electron .",
+        "pack": "electron-builder --dir",
+        "dist": "electron-builder -w portable nsis",
+        "postinstall": "electron-builder install-app-deps"
+    },
+    "build": {"files": ["build/**/*"], "directories": {"buildResources": "assets"}},
+    "devDependencies": {
+        "@stlite/desktop": "^0.57.0",
+        "electron": "30.0.8",
+        "electron-builder": "^24.13.3"
+    },
+    "stlite": {
+    "desktop": {
+      "files": ["app/*"],
+      "entrypoint": "app/app.py",
+      "embed": true,
+      "idbfsMountpoints": ["/mnt"],
+      "requirementsTxtFiles": ["requirements.txt"]
+    }
+  }
+    
+}

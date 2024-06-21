@@ -1,0 +1,30 @@
+{
+    "name": "Streamlit to Windows",
+    "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+    "customizations": {
+        "codespaces": {
+        },
+        "vscode": {
+            "extensions": [
+				"ms-python.python",
+				"ms-toolsai.jupyter",
+				"ahmadawais.shades-of-purple",
+				"twixes.pypi-assistant"
+			],
+            "settings": {
+                "workbench.colorTheme": "Shades of Purple (Super Dark)",
+                "python.pythonPath": ".venv/bin/python"
+            }
+        }
+    },
+    "features": {
+        "ghcr.io/devcontainers/features/node:1": {
+            "version": "lts"
+        },
+        "ghcr.io/devcontainers/features/python:1": {
+            "version": "3.9"
+        }
+    },
+    "postCreateCommand": "sudo dpkg --add-architecture i386 && sudo apt update && sudo apt install -y wine64 wine32 && npm install && python3 -m venv .venv && .venv/bin/pip install -r requirements.txt",
+    "remoteUser": "vscode"
+}
