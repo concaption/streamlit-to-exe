@@ -30,4 +30,4 @@ The output files will be in the `dist/` directory. You can right click on the fi
 
 You can message me on Upwork.
 
-[![https://img.shields.io/badge/UpWork-6FDA44?style=for-the-badge&logo=Upwork&logoColor=white](https://img.shields.io/badge/UpWork-6FDA44?style=for-the-badge&logo=Upwork&logoColor=white)](https://www.upwork.com/freelancers/concaption)
+[![Hire concaption on upwork: https://www.upwork.com/freelancers/concaption](https://img.shields.io/badge/UpWork-6FDA44?style=for-the-badge&logo=Upwork&logoColor=white)](https://www.upwork.com/freelancers/concaption)
