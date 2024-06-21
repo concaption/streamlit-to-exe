@@ -25,3 +25,9 @@ make app name=your_app_name_here
 
 ### Download the Files
 The output files will be in the `dist/` directory. You can right click on the file and download it. The file that have Setup in its name is the setup file.
+
+### Message me
+
+You can message me on Upwork.
+
+[![https://img.shields.io/badge/UpWork-6FDA44?style=for-the-badge&logo=Upwork&logoColor=white](https://img.shields.io/badge/UpWork-6FDA44?style=for-the-badge&logo=Upwork&logoColor=white)](https://www.upwork.com/freelancers/concaption)
