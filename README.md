@@ -5,7 +5,7 @@ To convert your Streamlit app to a Windows executable, follow these steps:
 ## Setting up the Environment
 1. Start the GitHub Codespace by clicking on the badge below:
 
-   [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/concaption/streamlit-exe)
+   [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/concaption/streamlit-to-exe)
 2. Wait for the environment to be set up. You are halfway done when the screen color changes from white to purple. Wait until your terminal is ready.
 
 ## Copy Your Streamlit App
