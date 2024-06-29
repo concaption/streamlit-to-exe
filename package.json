@@ -6,10 +6,11 @@
         "dump": "dump-stlite-desktop-artifacts",
         "serve": "NODE_ENV='production' electron .",
         "pack": "electron-builder --dir",
-        "dist": "electron-builder -w portable nsis",
+        "dist": "electron-builder -w portable nsis --publish never",
         "postinstall": "electron-builder install-app-deps"
     },
-    "build": {"files": ["build/**/*"], "directories": {"buildResources": "assets"}},
+    "build": {
+      "files": ["build/**/*"], "directories": {"buildResources": "assets"}},
     "devDependencies": {
         "@stlite/desktop": "^0.57.0",
         "electron": "30.0.8",
